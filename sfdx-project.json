@@ -1,0 +1,21 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "OrgExplorer",
+      "versionName": "Beta Version 1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Salesforce Org Explorer with Tooling and Dependency API"
+    }
+  ],
+  "name": "sfdx-toolingapi",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "OrgExplorer": "0Ho8c000000Kz2oCAC",
+    "OrgExplorer@0.1.0-1": "04t8c000000iAo5AAE",
+    "OrgExplorer@0.1.0-2": "04t8c000000iAoPAAU"
+  }
+}

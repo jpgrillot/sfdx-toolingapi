@@ -3,7 +3,7 @@
  * This is the controller for the Tooling API	*
  * Visualforce Page								*
  * *********************************************/
-public class toolapi_ToolingAPIObjectsController {
+public class toolingapi_ToolingAPIObjectsController {
 	public Boolean showBlock { get; set; }
     public List<MyWrapper> wrapper { get; set; }
     public String selectedValue { get; set; }
@@ -16,7 +16,7 @@ public class toolapi_ToolingAPIObjectsController {
     public List<String> standardObjectsList{get;set;} 
     public List<String> customFieldNameList {get;set;}
     
-    public toolapi_ToolingAPIObjectsController(){
+    public toolingapi_ToolingAPIObjectsController(){
         customObjectsList = new List<String>();
         standardObjectsList = new List<String>();
         customSettingsList = new List<String>();

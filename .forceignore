@@ -13,3 +13,5 @@ package.xml
 
 # Org Metadata
 **/profiles/**
+**/appMenus/**
+**/remoteSiteSettings/**

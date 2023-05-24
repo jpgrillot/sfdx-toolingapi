@@ -1,7 +1,12 @@
-<apex:page controller="toolapi_ToolingAPIObjectsController">
+<apex:page controller="toolingapi_ToolingAPIObjectsController" lightningStylesheets="true">
     <apex:form >
-        <apex:pageBlock title="Tooling API">
+        <apex:pageBlock title="Object Describe">
             <apex:pageMessages />
+            <apex:pageblockSection >
+                <p>
+                    Select a metadata object to get a list of it's fields.
+                </p>
+            </apex:pageblockSection>
             <apex:pageblockSection >
                 <apex:pageBlockSectionItem >
                     <apex:outputLabel value="Object Types"/>
